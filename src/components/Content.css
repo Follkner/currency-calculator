@@ -1,10 +1,25 @@
-.content{
-	width: 600px;
-	height: 400px;
-	background: #4343;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	margin: 0 auto;
+.content{	
 	font-weight: bold;
-	font-family: Helvetica;
-	text-shadow: 4px 4px 5px rgba(150, 150, 150, 1);
+	font-family: 'Bowlby One', sans-serif;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
 }
+
+.content input{
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+.content .block{
+	min-width: 542px;
+}
+
+.content footer{
+	position: absolute;
+	bottom: 10px;
+}
+
